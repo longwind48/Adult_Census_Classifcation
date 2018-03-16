@@ -1,3 +1,6 @@
+# Authors: Traci Lim, Willian Skinner, Yi Luo
+# Date: 11/03/2018 (final edit)
+
 # Dataset Description:
 # -> This data set contains weighted census data extracted from the 1994 & 1995 current population surveys.
 # -> The data contains demographic and employment related variables. 
