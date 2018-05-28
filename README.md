@@ -37,7 +37,7 @@ The predicting ability of our model has the potential application to improve the
 
 The following table shows a list of the well-performing classifiers we evaluated with the best model in each method, or local optimal model, highlighted with a darker colour hue. All running times are for when the code was run on an Intel(R) Core(TM) i7-7700HQ Lenovo laptop, with 16GB of RAM.    
 
-![model_sumary_table](C:\Users\longwind48\Google Drive\Programming\Projects\Adult_Census_Classification\Code\images\model_sumary_table.png)
+![model_sumary_table](\Code\images\model_sumary_table.png)
 
 Models trained on non-resampled training sets have generally poor specificity scores because standard classification models (e.g. logistic regression, SVM, decision trees, nearest neighbors) treat all classes as equally important and thus tend to be biased towards the major class in imbalanced problems, producing a high sensitivity score (E. Burnaev, P. Erofeev, & A. Papanov, 2017). 
 
