@@ -55,4 +55,34 @@ For a welfare system that should benefit those in greatest need, even at the exp
 
 There are some notable takeaways from this project. Having models trained on different resampling methods taught us that resampling a class imbalance dataset might not deliver results compatible with preliminary objectives. Although there is likely no algorithm that performs consistently well every time, understanding the strengths and weakness of each method still gives one an edge over randomly fitting a myriad of models and hoping for the best. Overall, we are pleased with our approach in optimizing predictive performance. Many other algorithms were attempted, but they were computationally slow to train and tune. Given excess time, we may look into implementing parallel processing in R to speed up some of the computationally expensive tasks, like tuning Support Vector Machines and Random Forest models. We could also perform a deeper analysis to justify the grouping of levels in categorical features, because the grouping was done intuitively without thorough justification.    
 
- 
+---
+
+### References
+
+Alberg, J. (2015, June 14). R, caret, and Parameter Tuning C5.0. Retrieved from Euclidean Technologies: http://www.euclidean.com/machine-learning-in-practice/2015/6/12/r-caretand-parameter-tuning-c50 
+
+E. Burnaev, P. Erofeev, & A. Papanov. (2017, July 12). Influence of Resampling on Accuracy of Imbalanced Classification. Institute for Information Transmission Problems (Kharkevich Institute) RAS. 
+
+Fridley, J. (2010, February 22). Tree models in R. Retrieved from http://plantecology.syr.edu/fridley/bio793/cart.html 
+
+Gorman, B. (2016, December 27). A Kaggler's Guide to Model Stacking in Practice. Retrieved from http://blog.kaggle.com: http://blog.kaggle.com/2016/12/27/a-kagglers-guide-to-modelstacking-in-practice/ 
+
+Kohavi, R., & Becker, B. (1996, May 1). UC Irvine Machine Learning Repository. Retrieved from https://archive.ics.uci.edu/ml/datasets/Adult 
+
+Longadge, R., Dongre, S. S., & Malik, L. (2013, February). Class Imbalance Problem in Data Mining: Review. International Journal of Computer Science and Network. ML Wave. (2015, June 11). KAGGLE ENSEMBLING GUIDE. Retrieved from mlwave.com: https://mlwave.com/kaggle-ensembling-guide/ 
+
+Movin, M., & Jagelid, M. (2017). A Comparison of Resampling Techniques to Handle the Class Imbalance Problem in Machine Learning- Conversion prediction of Spotify Users - A Case Study. 
+
+Pearson, R. (2016, 4 12). The GoodmanKruskal package: Measuring association between categorical variables. Retrieved from cran.r-project.org: https://cran.rproject.org/web/packages/GoodmanKruskal/vignettes/GoodmanKruskal.html 
+
+Pohar, M., Blas, M., & Turk, S. (2004). Comparison of Logistic Regression and Linear Discriminant Analysis: A Simulation Study. Metodološki zvezki, pp. 143-161. Rulequest Research. (2017, March). C5.0: An Informal Tutorial. Retrieved from www.rulequest.com: https://www.rulequest.com/see5-unix.html#WINNOWING 
+
+Scibilia, B. (2015, March 30). How Could You Benefit from a Box-Cox Transformation? Retrieved from The Minitab Blog: http://blog.minitab.com/blog/applying-statistics-in-quality-projects/howcould-you-benefit-from-a-box-cox-transformation 
+
+Standard Wisdom LLC. (2011, December 29). Confusion Matrix – Another Single Value Metric – Kappa Statistic. Retrieved from http://standardwisdom.com: http://standardwisdom.com/softwarejournal/2011/12/confusion-matrix-another-singlevalue-metric-kappa-statistic/ 
+
+Therneau, T. M., & Atkinson, E. J. (2018, February 23). An Introduction to Recursive Partitioning Using the RPART Routines. Retrieved from https://cran.r-project.org: https://cran.rproject.org/web/packages/rpart/vignettes/longintro.pdf    
+
+Wasikowski, M. (2009). Combating the Class Imbalance Problem in Small Sample Data Sets.    
+
+Wu, X., Kumar, V., Quinlan, J., Ghosh, J., Yang, Q., Motoda, H. Steinberg, D. (2008, January). Top 10 algorithms in data mining. Knowledge and Information Systems, pp. 1–37.    
